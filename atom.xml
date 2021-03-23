@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jonn</title>
+  
+  <subtitle>代码搬运工</subtitle>
+  <link href="https://cgdreamwork.com/atom.xml" rel="self"/>
+  
+  <link href="https://cgdreamwork.com/"/>
+  <updated>2021-03-23T07:56:54.161Z</updated>
+  <id>https://cgdreamwork.com/</id>
+  
+  <author>
+    <name>Jonn</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>unity python api 使用</title>
+    <link href="https://cgdreamwork.com/2021/03/23/unityPython/"/>
+    <id>https://cgdreamwork.com/2021/03/23/unityPython/</id>
+    <published>2021-03-23T15:04:25.000Z</published>
+    <updated>2021-03-23T07:56:54.161Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="unity-python-环境搭建-amp-常用使用方法"><a href="#unity-python-环境搭建-amp-常用使用方法" class="headerlink" title="unity python 环境搭建&amp;常用使用方法"></a><strong>unity python 环境搭建&amp;常用使用方法</strong></h1><h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h3><blockquote><p>Unity 版本必须 2019.3 及以上<br>Python 仅支持 2.7，并需要自行安装<br>Windows 的话系统要求是Win 10， 1803 以及以上</p></blockquote><h3 id="安装："><a href="#安装：" class="headerlink" title="安装："></a>安装：</h3><p>找到你工程中的 …/Packages/mainifest.json文件，在 dependencies 中加上 “com.unity.scripting.python”: “2.1.1-preview.1”,</p><p>添加并保存后，打开 <strong>window &gt; General &gt;Python Console</strong>,可以看到控制台窗口</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.cgdreamwork.com/blog/post_img/20210323152055.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.cgdreamwork.com/blog/post_img/20210323154141.png"></p><p>在菜单 <strong>Edit &gt; Project Settings</strong> 中左栏就可以看到 <strong>Python for Unity</strong> 项，在页面中会显示当前的各种版本信息以及识别到你系统里的 Python，用maya 的python可以直接指认mayapy.exe</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.cgdreamwork.com/blog/post_img/20210323154232.png"></p><p>待续…</p><p><strong>参考：</strong></p><blockquote><ul><li><a href="https://qiita.com/tm8r/items/29d598231b793be6c6ea">https://qiita.com/tm8r/items/29d598231b793be6c6ea</a></li><li><a href="https://www.bilibili.com/read/cv5322840/">https://www.bilibili.com/read/cv5322840/</a></li><li><a href="https://docs.unity3d.com/Packages/com.unity.scripting.python@2.1/manual/installation.html">https://docs.unity3d.com/Packages/com.unity.scripting.python@2.1/manual/installation.html</a></li></ul></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;unity-python-环境搭建-amp-常用使用方法&quot;&gt;&lt;a href=&quot;#unity-python-环境搭建-amp-常用使用方法&quot; class=&quot;headerlink&quot; title=&quot;unity python 环境搭建&amp;amp;常用使用方法&quot;&gt;&lt;/a&gt;&lt;s</summary>
+      
+    
+    
+    
+    <category term="unity" scheme="https://cgdreamwork.com/categories/unity/"/>
+    
+    
+    <category term="unity" scheme="https://cgdreamwork.com/tags/unity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>poseDeformerTest</title>
+    <link href="https://cgdreamwork.com/2016/10/16/poseDeformerTest/"/>
+    <id>https://cgdreamwork.com/2016/10/16/poseDeformerTest/</id>
+    <published>2016-10-16T22:42:34.000Z</published>
+    <updated>2021-03-23T07:56:54.161Z</updated>
+    
+    <content type="html"><![CDATA[<hr><blockquote><ul><li>Reference Hans Godard RBF Solver </li><li>Reference comet poseDeformer </li><li>Reference <a href="http://blog.sina.com.cn/s/blog_67e626560102voul.html">edward</a></li></ul></blockquote><span id="more"></span><p><img src= "/img/loading.gif" data-lazy-src="http://7xt68j.com1.z0.glb.clouddn.com/20161017001639.jpg" alt="enter description here" title=" "></p><p><img src= "/img/loading.gif" data-lazy-src="http://7xt68j.com1.z0.glb.clouddn.com/20161017001733.jpg" alt="enter description here" title=" "></p><p><img src= "/img/loading.gif" data-lazy-src="http://7xt68j.com1.z0.glb.clouddn.com/20161017001813.jpg" alt="enter description here" title=" "></p>]]></content>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Reference Hans Godard RBF Solver &lt;/li&gt;
+&lt;li&gt;Reference comet poseDeformer &lt;/li&gt;
+&lt;li&gt;Reference &lt;a href=&quot;http://blog.sina.com.cn/s/blog_67e626560102voul.html&quot;&gt;edward&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Tools" scheme="https://cgdreamwork.com/categories/Tools/"/>
+    
+    
+    <category term="Deformer" scheme="https://cgdreamwork.com/tags/Deformer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VS2013编译boost</title>
+    <link href="https://cgdreamwork.com/2016/09/08/Vs2013%E7%BC%96%E8%AF%91boost/"/>
+    <id>https://cgdreamwork.com/2016/09/08/Vs2013%E7%BC%96%E8%AF%91boost/</id>
+    <published>2016-09-08T20:02:12.000Z</published>
+    <updated>2021-03-23T07:56:54.161Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage :"></a>Usage :</h4><ul><li>1.Boost 下载       <a href="http://www.boost.org/">http://www.boost.org/</a></li></ul><ul><li>2.解压Boost.zip到 D:\boost_1_57_0</li></ul><ul><li>3.运行: Visual Studio 命令提示窗口 VS2013 x64 Cross Tools Command Prompt</li></ul><ul><li>4.执行: <code>cd /d D:\boost_1_57_0</code></li></ul><ul><li>5.执行: <code>bootstrap.bat</code> 此时会在该目录下生成b2.exe、bjam.exe、project-config.jam文件。</li></ul><ul><li><p>6.编译所有boost动态库执行:  </p>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">b2 stage --without-python --toolset&#x3D;msvc-12.0 --stagedir&#x3D;&quot;C:\boost_1_57_0\lib&quot;  link&#x3D;static address-model&#x3D;64 variant&#x3D;release runtime-link&#x3D;static threading&#x3D;multi debug release </span><br></pre></td></tr></table></figure></li><li><p>7.编译单个执行: </p>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">b2 stage --with-filesystem --toolset&#x3D;msvc-12.0 --stagedir&#x3D;&quot;C:\boost_1_57_0\lib&quot;  link&#x3D;static address-model&#x3D;64 variant&#x3D;release runtime-link&#x3D;static threading&#x3D;multi debug release</span><br></pre></td></tr></table></figure></li><li><p>8.编译zlib:</p><blockquote><p>下载解压：</p><p>执行: </p><p><code>set  ZLIB_SOURCE=&quot;D:\Windows\zlib-1.2.8&quot;</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">b2 --with-iostreams --toolset&#x3D;msvc-12.0 --stagedir&#x3D;&quot;C:\boost_1_57_0\lib&quot;  link&#x3D;static address-model&#x3D;64 variant&#x3D;release runtime-link&#x3D;static threading&#x3D;multi debug release</span><br></pre></td></tr></table></figure></blockquote></li></ul><ul><li>9.编译python:<blockquote><p>执行: </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">b2 stage --with-python --toolset=msvc-12.0 --stagedir=<span class="string">&quot;C:\boost_1_57_0\lib&quot;</span> link=shared address-model=64 variant=release runtime-link=shared threading=multi debug release</span><br></pre></td></tr></table></figure>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;     文件头添加 #define BOOST_PYTHON_STATIC_LIB</span><br><span class="line">&gt;     </span><br><span class="line">&gt;     lib 手动添加 libboost_python-vc120-mt-s-1_57.lib</span><br><span class="line"></span><br></pre></td></tr></table></figure></blockquote></li></ul><h4 id="参数："><a href="#参数：" class="headerlink" title="参数："></a>参数：</h4><pre><code>--build-dir=&lt;builddir&gt; 编译的临时文件会放在builddir里(编译完就可以把它删除了) --stagedir=&lt;stagedir&gt; 存放编译后库文件的路径，默认是stage --build-type=complete 编译所有版本，不然只会编译一小部分版本（相当于:variant=release,threading=multi;link=shared|static;runtime-link=shared） variant=debug|release 决定编译什么版本(Debug or Release) link=static|shared 决定使用静态库还是动态库 threading=single|multi 决定使用单线程还是多线程库 runtime-link=static|shared 决定是静态还是动态链接C/C++标准库 --with-&lt;library&gt; 只编译指定的库，如输入--with-regex就只编译regex库了 --show-libraries 显示需要编译的库名称--without-python     不编译pythonaddress-model=64     编译64位--toolset=msvc-12.0  VS 版本--stagedir           lib  输出路径--with-filesystem    编译单个lib</code></pre><blockquote></blockquote><h4 id="生成文件的分析"><a href="#生成文件的分析" class="headerlink" title="生成文件的分析"></a>生成文件的分析</h4><ul><li><p>（1）生成 Release 版本，多线程，动态链接C++标准库 的regex 动态库</p>  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">b2 stage --toolset=msvc<span class="number">-12.0</span> --stagedir=<span class="string">&quot;C:\boost_1_57_0\lib&quot;</span> --with-regex   link=shared threading=multi  variant=release  runtime-link=shared </span><br></pre></td></tr></table></figure><p>  – 输出： </p><pre><code>  boost_regex-vc90-mt.lib  boost_regex-vc90-mt-1_44.lib  boost_regex-vc90-mt-1_44.dll</code></pre></li></ul><ul><li><p>（2）生成 Release 版本，多线程，动态链接C++标准库 的regex静态库</p>  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">b2 stage --toolset=msvc<span class="number">-12.0</span> --stagedir=<span class="string">&quot;C:\boost_1_57_0\lib&quot;</span> --with-regex   link= <span class="keyword">static</span>  threading=multi  variant=release  runtime-link=shared </span><br></pre></td></tr></table></figure><p>  – 输出： </p><pre><code>  libboost_regex-vc90-mt-s.lib  libboost_regex-vc90-mt-1_44.lib</code></pre></li><li><p>（3）生成 Release 版本，多线程，静态链接C++标准库 的regex 静态库</p>  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">b2 stage --toolset=msvc<span class="number">-12.0</span> --stagedir=<span class="string">&quot;C:\boost_1_57_0\lib&quot;</span> --with-regex  link=<span class="keyword">static</span>  threading=multi  variant=release  runtime-link=<span class="keyword">static</span></span><br></pre></td></tr></table></figure><p>  – 输出：</p><pre><code>  libboost_regex-vc90-mt-s.lib  libboost_regex-vc90-mt-s-1_44.lib</code></pre></li></ul>]]></content>
+    
+    
+    <summary type="html">test</summary>
+    
+    
+    
+    <category term="Visual Studio" scheme="https://cgdreamwork.com/categories/Visual-Studio/"/>
+    
+    
+    <category term="C++" scheme="https://cgdreamwork.com/tags/C/"/>
+    
+    <category term="boost" scheme="https://cgdreamwork.com/tags/boost/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DeleteUvSets</title>
+    <link href="https://cgdreamwork.com/2016/09/01/DeleteUvSets/"/>
+    <id>https://cgdreamwork.com/2016/09/01/DeleteUvSets/</id>
+    <published>2016-09-01T15:04:25.000Z</published>
+    <updated>2021-03-23T07:56:54.161Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage:"></a>Usage:</h4><pre><code>  Delete UvV Sets and rename last uvset</code></pre><span id="more"></span> <h4 id="code"><a href="#code" class="headerlink" title="code:"></a>code:</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> maya.cmds <span class="keyword">as</span> cmds</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">DeleteUvSets</span>(<span class="params">newUVSet,sels</span>):</span></span><br><span class="line">    <span class="keyword">for</span> mesh <span class="keyword">in</span> sels:</span><br><span class="line">        <span class="built_in">set</span> = cmds.polyUVSet(mesh, query=<span class="literal">True</span>, allUVSets=<span class="number">1</span> )</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">set</span>)):</span><br><span class="line">            <span class="keyword">if</span> i&gt;<span class="number">0</span>:</span><br><span class="line">                 cmds.polyUVSet(mesh, delete=<span class="literal">True</span>, uvSet=<span class="built_in">set</span>[i])</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            cmds.polyUVSet(mesh,rename=<span class="literal">True</span>, newUVSet=newUVSet, uvSet= cmds.polyUVSet(mesh, currentLastUVSet=<span class="literal">True</span> )[<span class="number">0</span>])</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">sels = cmds.ls(sl=<span class="number">1</span>)</span><br><span class="line">newUVSet=<span class="string">&#x27;map1&#x27;</span></span><br><span class="line">DeleteUvSets(newUVSet,sels)</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;Usage&quot;&gt;&lt;a href=&quot;#Usage&quot; class=&quot;headerlink&quot; title=&quot;Usage:&quot;&gt;&lt;/a&gt;Usage:&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;  Delete UvV Sets and rename last uvset
+&lt;/code&gt;&lt;/pre&gt;</summary>
+    
+    
+    
+    <category term="code" scheme="https://cgdreamwork.com/categories/code/"/>
+    
+    
+    <category term="Maya" scheme="https://cgdreamwork.com/tags/Maya/"/>
+    
+    <category term="UV" scheme="https://cgdreamwork.com/tags/UV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adding a QMenu to Maya</title>
+    <link href="https://cgdreamwork.com/2016/08/25/Adding-a-QMenu-to-Maya/"/>
+    <id>https://cgdreamwork.com/2016/08/25/Adding-a-QMenu-to-Maya/</id>
+    <published>2016-08-25T22:19:08.000Z</published>
+    <updated>2021-03-23T07:56:54.161Z</updated>
+    
+    <content type="html"><![CDATA[<hr><pre><code>snake大大遇到的问题 记录一下Adding a QMenu to Mayahttps://groups.google.com/forum/#!forum/python_inside_maya</code></pre><hr><span id="more"></span><h4 id="code"><a href="#code" class="headerlink" title="code:"></a>code:</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> shiboken</span><br><span class="line"><span class="keyword">from</span> PySide <span class="keyword">import</span> QtGui, QtCore</span><br><span class="line"><span class="keyword">import</span> maya.OpenMayaUI <span class="keyword">as</span> apiUI</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getMayaWindow</span>():</span></span><br><span class="line">    ptr = apiUI.MQtUtil.mainWindow()</span><br><span class="line">    <span class="keyword">if</span> ptr <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">        <span class="keyword">return</span> shiboken.wrapInstance(long(ptr), QtGui.QMainWindow)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">addMenuItem</span>(<span class="params">mayaWindow=<span class="literal">None</span>, title=<span class="string">&#x27;&#x27;</span></span>):</span></span><br><span class="line">    mainMenu = QtGui.QMenu(title)</span><br><span class="line">    menu = mayaWindow.menuBar().addMenu(mainMenu)</span><br><span class="line">    <span class="keyword">return</span> mainMenu</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">addMenuAction</span>(<span class="params">menu=<span class="literal">None</span>, title=<span class="string">&#x27;&#x27;</span>, action=<span class="string">&#x27;&#x27;</span></span>):</span></span><br><span class="line">    <span class="keyword">return</span> menu.addAction(action)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">addSeparator</span>(<span class="params">menu</span>):</span></span><br><span class="line">    <span class="keyword">return</span> menu.addSeparator()</span><br><span class="line"></span><br><span class="line">mayaWindow = getMayaWindow()</span><br><span class="line">mainMenu = addMenuItem(mayaWindow, <span class="string">&#x27;TESTING&#x27;</span>)</span><br><span class="line"><span class="keyword">for</span> a <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">20</span>):</span><br><span class="line">    addMenuAction(mainMenu, title=<span class="string">&#x27;&#x27;</span>, action=<span class="string">&#x27;TESTING%s&#x27;</span>%<span class="built_in">str</span>(a))</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> a % <span class="number">5</span>:</span><br><span class="line">        addSeparator(mainMenu)</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;pre&gt;&lt;code&gt;snake大大遇到的问题 记录一下
+Adding a QMenu to Maya
+https://groups.google.com/forum/#!forum/python_inside_maya
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="code" scheme="https://cgdreamwork.com/categories/code/"/>
+    
+    
+    <category term="Qt" scheme="https://cgdreamwork.com/tags/Qt/"/>
+    
+    <category term="QMenu" scheme="https://cgdreamwork.com/tags/QMenu/"/>
+    
+    <category term="Maya" scheme="https://cgdreamwork.com/tags/Maya/"/>
+    
+    <category term="PySide" scheme="https://cgdreamwork.com/tags/PySide/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Not-symmetry-mesh-mirror-shape-Node</title>
+    <link href="https://cgdreamwork.com/2016/08/25/Not-symmetry-mesh-mirror-shape-Node/"/>
+    <id>https://cgdreamwork.com/2016/08/25/Not-symmetry-mesh-mirror-shape-Node/</id>
+    <published>2016-08-25T00:00:00.000Z</published>
+    <updated>2021-03-23T07:56:54.161Z</updated>
+    
+    <content type="html"><![CDATA[<hr><blockquote><ul><li>Reference RomanVldn mirrorShape Plug</li><li>Rewritten using barycentric coordinates algorithm</li><li>Added some own ideas</li></ul></blockquote><span id="more"></span><h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage:"></a>Usage:</h4><p>There are two versions of the plugin available for testing and usage. Download one of them and place it in MAYA_PLUG_IN_PATH folder.</p><ul><li><p>“symmetryPlane” or “sym” that is used to define the plane of the symmetry (XZ, YZ, XY)</p></li><li><p>Make sure the plugin has been loaded via pluginManager</p></li><li><p>First select a base mesh (in the center of the scene), then select the second (modified) mesh and run the next script</p></li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> maya.cmds <span class="keyword">as</span> cmds</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">mirrorShapeCmd</span>(<span class="params">baseMesh=<span class="literal">None</span>, targetMesh=<span class="literal">None</span>,symmetryPlane = <span class="string">&quot;YZ&quot;</span></span>):</span></span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">    DESCRIPTION:</span></span><br><span class="line"><span class="string">        # ================</span></span><br><span class="line"><span class="string">        #  mirrorShapeCmd</span></span><br><span class="line"><span class="string">        # ================</span></span><br><span class="line"><span class="string">    ARGUMENTS:</span></span><br><span class="line"><span class="string">        baseMesh= &quot;origMesh&quot;</span></span><br><span class="line"><span class="string">        targetMesh=&quot;targetMesh&quot;</span></span><br><span class="line"><span class="string">    RETURN:</span></span><br><span class="line"><span class="string">        MirrorMeshTarget</span></span><br><span class="line"><span class="string">    &#x27;&#x27;&#x27;</span></span><br><span class="line">    mc.undoInfo(openChunk=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> baseMesh <span class="keyword">or</span> <span class="keyword">not</span> targetMesh:</span><br><span class="line">        sel = mc.ls(sl=<span class="literal">True</span>)</span><br><span class="line">        baseMesh,targetMesh = sel</span><br><span class="line">    lock_attr = <span class="keyword">lambda</span> node,b:[cmds.setAttr(<span class="string">&#x27;%s.%s%s&#x27;</span> %(node,a,aa),l=b) <span class="keyword">for</span> a <span class="keyword">in</span> <span class="string">&#x27;trs&#x27;</span> <span class="keyword">for</span> aa <span class="keyword">in</span> <span class="string">&#x27;xyz&#x27;</span>]</span><br><span class="line">    duplicatebaseMesh = cmds.duplicate( baseMesh,rr=<span class="number">1</span>,n=<span class="string">&#x27;MirrorShape#&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">    cmds.setAttr(<span class="string">&#x27;%s.v&#x27;</span> %duplicatebaseMesh ,<span class="number">0</span>)</span><br><span class="line">    lock_attr(duplicatebaseMesh,<span class="number">0</span>)</span><br><span class="line">    cmds.xform(duplicatebaseMesh,ws=<span class="number">1</span>,t=[<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>])</span><br><span class="line">    <span class="comment">#cmds.refresh()</span></span><br><span class="line">    cmds.select(duplicatebaseMesh,targetMesh)</span><br><span class="line">    cmds.CGmirrorShape(symmetryPlane=symmetryPlane)</span><br><span class="line">    bdingBx = cmds.polyEvaluate(targetMesh, boundingBox = <span class="literal">True</span>)</span><br><span class="line">    xDifVal = bdingBx[<span class="number">0</span>][<span class="number">1</span>] - bdingBx[<span class="number">0</span>][<span class="number">0</span>]</span><br><span class="line">    cmds.xform(duplicatebaseMesh, ws = <span class="number">1</span>, t = cmds.xform(targetMesh, q = <span class="number">1</span>, t = <span class="number">1</span>, ws = <span class="literal">True</span>))</span><br><span class="line">    cmds.move(xDifVal*<span class="number">2.20</span>, duplicatebaseMesh, r = <span class="literal">True</span>, moveX = <span class="literal">True</span>)</span><br><span class="line">    cmds.setAttr(<span class="string">&#x27;%s.v&#x27;</span> %duplicatebaseMesh ,<span class="number">1</span>)</span><br><span class="line">    mc.undoInfo(closeChunk=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> duplicatebaseMesh</span><br><span class="line"></span><br><span class="line">mirrorShapeCmd(baseMesh=<span class="literal">None</span>, targetMesh=<span class="literal">None</span>,symmetryPlane = <span class="string">&quot;YZ&quot;</span>)</span><br></pre></td></tr></table></figure><script src="https://gumroad.com/js/gumroad.js"></script><p><a class="gumroad-button" href="https://gum.co/mirrorShape">DownLoad</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Reference RomanVldn mirrorShape Plug&lt;/li&gt;
+&lt;li&gt;Rewritten using barycentric coordinates algorithm&lt;/li&gt;
+&lt;li&gt;Added some own ideas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Tools" scheme="https://cgdreamwork.com/categories/Tools/"/>
+    
+    
+    <category term="Deformer" scheme="https://cgdreamwork.com/tags/Deformer/"/>
+    
+  </entry>
+  
+</feed>
